@@ -1,0 +1,19 @@
+# ignore data file
+data/
+datas/
+source/
+*.zip
+*.csv
+
+
+# Result file
+result/
+results/
+
+
+# etc file
+.ipynb_checkpoints
+runs/
+models/
+wandb/
+.idea/
