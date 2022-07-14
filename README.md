@@ -28,3 +28,14 @@ Hustar에서 진행된 BigdataAnalysis 관련 Source code file 입니다.  <br><
 - Data preprocessing (NULL값 제거)
 - support vector machine 구현 (linear, polynomial, rbf, sigmoid)
 - Accuracy, F1 score, confusion matrix, precision score, recall score 계산 (C, gamma 조정하며 다양한 시도)
+
+### Hepatitis_tree_graphviz
+- Hepatitis Data를 DecisionTreeClassifier로 학습 및 추론
+- graphviz를 사용한 시각화
+- post-pruning을 적용
+
+### Wine_boosting
+- Wine data 분석, StandardScaler로 표준화 진행
+- RandomForest, DecisionTree, AdaBoost, XGBoost, LogisticRegression 모델의 성능 비교
+- StratifiedKFold와 cross validation으로 검증
+- GridSearchCV와 RandomizedSearchCV로 최적의 파라미터 탐색
