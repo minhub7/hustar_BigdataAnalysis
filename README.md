@@ -39,3 +39,14 @@ Hustar에서 진행된 BigdataAnalysis 관련 Source code file 입니다.  <br><
 - RandomForest, DecisionTree, AdaBoost, XGBoost, LogisticRegression 모델의 성능 비교
 - StratifiedKFold와 cross validation으로 검증
 - GridSearchCV와 RandomizedSearchCV로 최적의 파라미터 탐색
+
+### iris_Clustering
+- iris data 분석
+- KMeans Clustering, Gaussian Mixture 구현
+- seaborn, Axes3D, plotly를 사용한 2, 3차 시각화
+
+### PCA_regression
+- Boston 집 값 Data 활용
+- PCA를 사용한 차원 축소법 연구 (작은 MSE, 높은 Accuracy를 가지는 주성분 개수 추출)
+- K-fold validation, GridSearchCV로 최적의 하이퍼파라미터 추출, Linear Regression과 SVM으로 검증
+
